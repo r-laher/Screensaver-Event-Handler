@@ -4,6 +4,7 @@ Utilized QEMU & VNC framebuffer
 
 Developers:
 Rebecca Laher - rlaher@bu.edu
+
 Elise DeCarli - decarli@bu.edu
 
 To run:

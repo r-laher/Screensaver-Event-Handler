@@ -16,4 +16,4 @@ rmmod myscreensaver to remove<br />
 <br />
 Limitations:<br />
 May experience page domain fault if trying to remove module while screensaver is actively drawing. Move mouse on framebuffer to produce black screen before running rmmod to prevent fault.<br />
-Currently displays black box that fills framebuffer upon keyboard/mouse input. If using as actual screensaver, would need to modify to actually return to program, rather than black display.
+Currently displays black box that fills framebuffer upon keyboard/mouse input. If using as actual screensaver, would need to modify to return to program, rather than black display.

@@ -3,6 +3,7 @@ Linux Kernel Module - displays Boston CITGO screensaver after 15 seconds of no k
 Utilized QEMU & VNC framebuffer
 
 Developers:
+
 Rebecca Laher - rlaher@bu.edu
 
 Elise DeCarli - decarli@bu.edu

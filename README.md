@@ -1,6 +1,7 @@
 # Screensaver-Event-Handler
 Linux Kernel Module - displays Boston CITGO screensaver after 15 seconds of no keyboard/mouse input to framebuffer. <br />
-Utilized QEMU & VNC framebuffer
+Utilized QEMU & VNC framebuffer. <br />
+Modified driver functions from keyboard.c and evdev.c as explicitely stated in comments of myscreensaver.c file. <br />
 
 Developers:<br />
 Rebecca Laher - rlaher@bu.edu<br />

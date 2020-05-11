@@ -14,5 +14,6 @@ mknod /dev/myscreensaver c 61 0 <br />
 insmod /root/myscreensaver.ko<br />
 rmmod myscreensaver to remove<br />
 <br />
-Bugs:<br />
-May experience page domain fault if trying to remove module while screensaver is actively drawing. Move mouse on framebuffer to produce black screen before running rmmod to prevent fault.
+Limitations:<br />
+May experience page domain fault if trying to remove module while screensaver is actively drawing. Move mouse on framebuffer to produce black screen before running rmmod to prevent fault.<br />
+Currently displays black box that fills framebuffer upon keyboard/mouse input. If using as actual screensaver, would need to modify to actually return to program, rather than black display.
